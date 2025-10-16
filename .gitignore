@@ -1,0 +1,67 @@
+# =========================
+# PROJETO_AURUM - .gitignore
+# =========================
+
+# Ambientes virtuais
+.venv/
+venv_aurum/
+venv/
+env/
+
+# Arquivos temporários do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Notebooks e checkpoints do Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Dados locais e caches
+data/http_cache.sqlite
+*.sqlite
+*.db
+*.log
+*.tmp
+*.bak
+
+# Arquivos CSV e Parquet grandes (gerados localmente)
+data/*.csv
+data/*.parquet
+*.csv
+*.parquet
+
+# Arquivos de saída e resultados intermediários
+*.out
+*.result
+*.report
+*.pdf
+
+# Configurações locais e do VS Code
+.vscode/
+*.code-workspace
+
+# Arquivos de ambiente
+.env
+.env.local
+*.env.*
+
+# Diretórios de build e distribuição
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Cache de dependências
+pip-wheel-metadata/
+__pypackages__/
+.mypy_cache/
+.pytest_cache/
+.coverage
+
+# Arquivos de backup do sistema operacional
+.DS_Store
+Thumbs.db
