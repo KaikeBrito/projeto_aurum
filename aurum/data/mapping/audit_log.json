@@ -1,0 +1,660 @@
+{
+  "version": "1.0.0",
+  "timestamp": "2025-12-11 15:14:34",
+  "steps": [
+    {
+      "step": "extract_cvm",
+      "timestamp": "2025-12-11 15:14:34",
+      "details": "90 empresas extraídas"
+    },
+    {
+      "step": "extract_b3",
+      "timestamp": "2025-12-11 15:14:34",
+      "details": "95 tickers extraídos"
+    },
+    {
+      "step": "load_manual",
+      "timestamp": "2025-12-11 15:14:34",
+      "details": "0 overrides carregados"
+    },
+    {
+      "step": "check_historical",
+      "timestamp": "2025-12-11 15:14:34",
+      "details": "101 tickers com histórico"
+    },
+    {
+      "step": "extract_fundamentals_wide",
+      "timestamp": "2025-12-11 15:14:34",
+      "details": "95 mapeamentos extraídos"
+    },
+    {
+      "step": "matching",
+      "timestamp": "2025-12-11 15:14:34",
+      "details": {
+        "total_matches": 95,
+        "successful_matches": 0,
+        "avg_confidence": 0.0,
+        "by_method": {
+          "no_match": 95
+        },
+        "high_confidence": 0,
+        "medium_confidence": 0,
+        "low_confidence": 95
+      }
+    },
+    {
+      "step": "enrich_metadata",
+      "timestamp": "2025-12-11 15:14:34",
+      "details": "Metadados adicionados com sucesso"
+    },
+    {
+      "step": "validation",
+      "timestamp": "2025-12-11 15:14:34",
+      "details": {
+        "total_tickers": 95,
+        "com_cnpj": 0,
+        "sem_cnpj": 95,
+        "cnpj_validos": 0,
+        "cnpj_invalidos": 95,
+        "confianca_media": 0.0,
+        "confianca_mediana": 0.0,
+        "por_metodo": {
+          "no_match": 95
+        },
+        "por_qualidade": {
+          "SEM_CNPJ": 95
+        },
+        "units": 7,
+        "bdrs": 0,
+        "com_dados_recentes": 95,
+        "problemas": [
+          {
+            "tipo": "SEM_CNPJ",
+            "quantidade": 95,
+            "tickers": [
+              "ALOS3",
+              "ABEV3",
+              "ANIM3",
+              "ASAI3",
+              "AURE3",
+              "AXIA3",
+              "AXIA6",
+              "AZZA3",
+              "B3SA3",
+              "BBSE3",
+              "BBDC3",
+              "BBDC4",
+              "BRAP4",
+              "BRKM5",
+              "BRAV3",
+              "BPAC11",
+              "CXSE3",
+              "CEAB3",
+              "CMIG4",
+              "COGN3",
+              "CSMG3",
+              "CPLE3",
+              "CPLE5",
+              "CSAN3",
+              "CPFE3",
+              "CMIN3",
+              "CURY3",
+              "CVCB3",
+              "CYRE3",
+              "DIRR3",
+              "ECOR3",
+              "EMBJ3",
+              "ENGI11",
+              "ENEV3",
+              "EGIE3",
+              "EQTL3",
+              "EZTC3",
+              "FLRY3",
+              "GGBR4",
+              "GOAU4",
+              "GGPS3",
+              "GMAT3",
+              "HAPV3",
+              "HYPE3",
+              "IGTI11",
+              "INTB3",
+              "IRBR3",
+              "ISAE4",
+              "ITSA4",
+              "ITUB4",
+              "KLBN11",
+              "RENT3",
+              "LREN3",
+              "MGLU3",
+              "POMO4",
+              "MBRF3",
+              "BEEF3",
+              "MOTV3",
+              "MOVI3",
+              "MRVE3",
+              "MULT3",
+              "NATU3",
+              "PCAR3",
+              "PETR3",
+              "PETR4",
+              "RECV3",
+              "PRIO3",
+              "PETZ3",
+              "PSSA3",
+              "RADL3",
+              "RAIZ4",
+              "RAPT4",
+              "RDOR3",
+              "RAIL3",
+              "SBSP3",
+              "SAPR11",
+              "SANB11",
+              "SMTO3",
+              "CSNA3",
+              "SLCE3",
+              "SMFT3",
+              "SUZB3",
+              "TAEE11",
+              "VIVT3",
+              "TEND3",
+              "TIMS3",
+              "TOTS3",
+              "UGPA3",
+              "USIM5",
+              "VALE3",
+              "VAMO3",
+              "VBBR3",
+              "VIVA3",
+              "WEGE3",
+              "YDUQ3"
+            ]
+          },
+          {
+            "tipo": "BAIXA_CONFIANCA",
+            "quantidade": 95,
+            "registros": [
+              {
+                "ticker_simple": "ALOS3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "ABEV3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "ANIM3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "ASAI3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "AURE3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "AXIA3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "AXIA6",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "AZZA3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "B3SA3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "BBSE3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "BBDC3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "BBDC4",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "BRAP4",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "BRKM5",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "BRAV3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "BPAC11",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "CXSE3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "CEAB3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "CMIG4",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "COGN3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "CSMG3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "CPLE3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "CPLE5",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "CSAN3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "CPFE3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "CMIN3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "CURY3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "CVCB3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "CYRE3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "DIRR3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "ECOR3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "EMBJ3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "ENGI11",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "ENEV3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "EGIE3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "EQTL3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "EZTC3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "FLRY3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "GGBR4",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "GOAU4",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "GGPS3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "GMAT3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "HAPV3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "HYPE3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "IGTI11",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "INTB3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "IRBR3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "ISAE4",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "ITSA4",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "ITUB4",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "KLBN11",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "RENT3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "LREN3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "MGLU3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "POMO4",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "MBRF3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "BEEF3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "MOTV3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "MOVI3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "MRVE3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "MULT3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "NATU3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "PCAR3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "PETR3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "PETR4",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "RECV3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "PRIO3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "PETZ3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "PSSA3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "RADL3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "RAIZ4",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "RAPT4",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "RDOR3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "RAIL3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "SBSP3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "SAPR11",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "SANB11",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "SMTO3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "CSNA3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "SLCE3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "SMFT3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "SUZB3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "TAEE11",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "VIVT3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "TEND3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "TIMS3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "TOTS3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "UGPA3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "USIM5",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "VALE3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "VAMO3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "VBBR3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "VIVA3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "WEGE3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              },
+              {
+                "ticker_simple": "YDUQ3",
+                "confiabilidade": 0,
+                "fonte_match": "no_match"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "statistics": {},
+  "status": "ERROR",
+  "error": "'MappingConfig' object has no attribute 'get_version_path'"
+}

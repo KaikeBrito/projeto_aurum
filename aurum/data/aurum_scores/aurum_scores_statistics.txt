@@ -1,0 +1,30 @@
+AURUM QUALITY SCORE - ESTATÍSTICAS (ÚLTIMO PERÍODO)
+==================================================
+
+Total de empresas: 729
+Período mais recente: 2025-09-30 00:00:00
+
+DISTRIBUIÇÃO DOS SCORES:
+  Média: 49.27
+  Mediana: 47.79
+  Mínimo: 9.87
+  Máximo: 100.00
+
+DISTRIBUIÇÃO POR NOTAS:
+  Nota A: 191 empresas
+  Nota B: 90 empresas
+  Nota C: 83 empresas
+  Nota D: 147 empresas
+  Nota E: 218 empresas
+
+TOP 10 EMPRESAS:
+   1. CAMIL ALIMENTOS S.A.                100.00 (Nota A)
+   2. MINUPAR PARTICIPACOES S.A.           90.07 (Nota A)
+   3. 521 PARTICIPACOES S.A. - EM LIQUIDA  89.17 (Nota A)
+   4. STEIN SP II PARTICIPAÇÕES S.A.       87.37 (Nota A)
+   5. COMERCIAL QUINTELLA COM EXP SA EM L  84.67 (Nota A)
+   6. SONDOTECNICA ENGENHARIA SOLOS S.A.   83.36 (Nota A)
+   7. EPR INFRAESTRUTURA PR S.A.           83.19 (Nota A)
+   8. MÉLIUZ S.A.                          82.29 (Nota A)
+   9. RIVA INCORPORADORA S.A               79.77 (Nota A)
+  10. AURA ALMAS MINERAÇÃO S.A.            79.68 (Nota A)
