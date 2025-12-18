@@ -1,8 +1,3 @@
-Aqui está o arquivo **README.md** completo e estruturado para o seu projeto.
-
-Ele consolida a visão técnica, a filosofia de investimento e o roteiro de implementação baseado no seu "Prompt Mestre", incluindo o **Fluxograma Estendido** que conecta a ingestão de dados até a saída do backtest.
-
-Você pode copiar o código abaixo e salvar como `README.md` na raiz do seu repositório.
 
 -----
 
@@ -95,7 +90,6 @@ flowchart TD
     Start --> GN
     Start --> CVM
 ```
-
 -----
 
 ## 🛠️ Stack Tecnológico
@@ -143,3 +137,4 @@ O projeto segue uma abordagem incremental dividida em 7 etapas principais:
 -----
 
 *Projeto desenvolvido para fins educacionais e de pesquisa em Finanças Quantitativas.*
+
