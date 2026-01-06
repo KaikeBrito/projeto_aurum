@@ -1,8 +1,3 @@
-Com certeza. Vamos atualizar o seu `README.md` para refletir fielmente a arquitetura sofisticada que construímos.
-
-A principal mudança é detalhar o **Pipeline de Engenharia de Dados** (Merge, Lag de Balanços, Agregação de Notícias) e destacar o **Scoring Engine** como o coração do sistema, separando-o da execução do Backtest. Também ajustaremos a Stack Tecnológica para refletir o uso intensivo de arquivos `.parquet` em vez de bancos SQL tradicionais, o que é mais comum em *High Frequency* ou *Research*.
-
-Aqui está a versão atualizada e profissional:
 
 ---
 
